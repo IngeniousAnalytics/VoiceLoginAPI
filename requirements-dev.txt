@@ -1,0 +1,16 @@
+fastapi==0.109.1
+#libsndfile1  # Required for non-WAV formats
+ffmpeg-python==0.2.0  # For WebM conversion
+uvicorn==0.27.0
+torch==2.2.1
+torchaudio==2.2.1
+speechbrain==0.5.15
+numpy==1.26.3
+python-multipart==0.0.6
+pydub>=0.25.1
+pydantic==2.6.1
+# PostgreSQL + async support
+SQLAlchemy==2.0.27
+asyncpg==0.29.0
+psycopg[binary]==3.1.18
+python-dotenv==1.0.1
